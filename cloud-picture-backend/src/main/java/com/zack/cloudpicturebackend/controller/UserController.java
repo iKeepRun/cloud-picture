@@ -51,7 +51,7 @@ public class UserController {
     @GetMapping("/getLoginUser")
     public CommonResult<LoginUserVO> getLoginUser(HttpServletRequest request){
         User loginUser = userService.getLoginUser(request);
-        String ds="dadad";
+        String ds="dadadd";
         return CommonResult.success(userService.getLoginUserVO(loginUser));
     }
 
